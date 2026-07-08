@@ -8,6 +8,9 @@
             MessageBox.Show("Login Successful!")
             Me.Hide()
             MainMenuForm.Show()
+            txtUsn.Clear()
+            txtPass.Clear()
+
 
         Else
             MessageBox.Show("Invalid username or password.")
