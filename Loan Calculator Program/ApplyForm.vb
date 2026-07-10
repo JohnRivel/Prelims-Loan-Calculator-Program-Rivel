@@ -103,7 +103,7 @@
         LoanComputationForm.lblLoanTerm.Text = cboLTerm.Text
         LoanComputationForm.lblInterestRate.Text = "₱" & interest.ToString("N0")
         LoanComputationForm.lblTotalPayment.Text = "₱" & total.ToString("N0")
-        LoanComputationForm.lblMonthlyPayment.Text = "₱" & monthly.ToString("N0")
+        LoanComputationForm.lblMonthlyAmortization.Text = "₱" & monthly.ToString("N0")
         LoanComputationForm.lblLoanStatus.Text = status
         LoanComputationForm.lblRemarks.Text = remarks
 

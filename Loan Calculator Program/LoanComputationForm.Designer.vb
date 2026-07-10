@@ -43,7 +43,7 @@ Partial Class LoanComputationForm
         Me.lblSpacing3 = New System.Windows.Forms.Label()
         Me.lblInterestRate = New System.Windows.Forms.Label()
         Me.lblTotalPayment = New System.Windows.Forms.Label()
-        Me.lblMonthlyPayment = New System.Windows.Forms.Label()
+        Me.lblMonthlyAmortization = New System.Windows.Forms.Label()
         Me.lblLoanStatus = New System.Windows.Forms.Label()
         Me.lblRemarks = New System.Windows.Forms.Label()
         Me.btnBack = New System.Windows.Forms.Button()
@@ -210,7 +210,8 @@ Partial Class LoanComputationForm
         Me.lblComputationInfoDeck.Name = "lblComputationInfoDeck"
         Me.lblComputationInfoDeck.Size = New System.Drawing.Size(194, 240)
         Me.lblComputationInfoDeck.TabIndex = 19
-        Me.lblComputationInfoDeck.Text = "Interest" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Total Amount Payable" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Monthly Payment" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Loan Status" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Remarks:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
+        Me.lblComputationInfoDeck.Text = "Interest" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Total Amount Payable" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Monthly Amortization" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Loan Status" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Remark" &
+    "s:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         '
         'lblCompTitle
         '
@@ -250,14 +251,14 @@ Partial Class LoanComputationForm
         Me.lblTotalPayment.Size = New System.Drawing.Size(0, 24)
         Me.lblTotalPayment.TabIndex = 22
         '
-        'lblMonthlyPayment
+        'lblMonthlyAmortization
         '
-        Me.lblMonthlyPayment.AutoSize = True
-        Me.lblMonthlyPayment.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblMonthlyPayment.Location = New System.Drawing.Point(598, 263)
-        Me.lblMonthlyPayment.Name = "lblMonthlyPayment"
-        Me.lblMonthlyPayment.Size = New System.Drawing.Size(0, 24)
-        Me.lblMonthlyPayment.TabIndex = 23
+        Me.lblMonthlyAmortization.AutoSize = True
+        Me.lblMonthlyAmortization.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblMonthlyAmortization.Location = New System.Drawing.Point(598, 263)
+        Me.lblMonthlyAmortization.Name = "lblMonthlyAmortization"
+        Me.lblMonthlyAmortization.Size = New System.Drawing.Size(0, 24)
+        Me.lblMonthlyAmortization.TabIndex = 23
         '
         'lblLoanStatus
         '
@@ -306,7 +307,7 @@ Partial Class LoanComputationForm
         Me.Controls.Add(Me.btnBack)
         Me.Controls.Add(Me.lblRemarks)
         Me.Controls.Add(Me.lblLoanStatus)
-        Me.Controls.Add(Me.lblMonthlyPayment)
+        Me.Controls.Add(Me.lblMonthlyAmortization)
         Me.Controls.Add(Me.lblTotalPayment)
         Me.Controls.Add(Me.lblInterestRate)
         Me.Controls.Add(Me.lblSpacing3)
@@ -355,7 +356,7 @@ Partial Class LoanComputationForm
     Friend WithEvents lblCompTitle As Label
     Friend WithEvents lblSpacing3 As Label
     Friend WithEvents lblTotalPayment As Label
-    Friend WithEvents lblMonthlyPayment As Label
+    Friend WithEvents lblMonthlyAmortization As Label
     Friend WithEvents lblLoanStatus As Label
     Friend WithEvents lblRemarks As Label
     Friend WithEvents lblInterestRate As Label
