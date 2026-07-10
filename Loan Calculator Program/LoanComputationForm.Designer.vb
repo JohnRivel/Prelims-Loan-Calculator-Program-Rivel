@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class LoanComputationForm
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class LoanComputationForm
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.lblLoanTitle = New System.Windows.Forms.Label()
         Me.lblCustomerTitle = New System.Windows.Forms.Label()
@@ -46,7 +46,6 @@ Partial Class LoanComputationForm
         Me.lblMonthlyAmortization = New System.Windows.Forms.Label()
         Me.lblLoanStatus = New System.Windows.Forms.Label()
         Me.lblRemarks = New System.Windows.Forms.Label()
-        Me.btnBack = New System.Windows.Forms.Button()
         Me.btnHome = New System.Windows.Forms.Button()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Panel1.SuspendLayout()
@@ -280,20 +279,10 @@ Partial Class LoanComputationForm
         Me.lblRemarks.Size = New System.Drawing.Size(0, 24)
         Me.lblRemarks.TabIndex = 25
         '
-        'btnBack
-        '
-        Me.btnBack.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnBack.Location = New System.Drawing.Point(12, 558)
-        Me.btnBack.Name = "btnBack"
-        Me.btnBack.Size = New System.Drawing.Size(82, 31)
-        Me.btnBack.TabIndex = 26
-        Me.btnBack.Text = "Back"
-        Me.btnBack.UseVisualStyleBackColor = True
-        '
         'btnHome
         '
         Me.btnHome.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnHome.Location = New System.Drawing.Point(116, 558)
+        Me.btnHome.Location = New System.Drawing.Point(12, 558)
         Me.btnHome.Name = "btnHome"
         Me.btnHome.Size = New System.Drawing.Size(82, 31)
         Me.btnHome.TabIndex = 27
@@ -341,7 +330,6 @@ Partial Class LoanComputationForm
         Me.ClientSize = New System.Drawing.Size(984, 601)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.btnHome)
-        Me.Controls.Add(Me.btnBack)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
         Me.Name = "LoanComputationForm"
         Me.Text = "LoanComputationForm"
@@ -374,7 +362,6 @@ Partial Class LoanComputationForm
     Friend WithEvents lblLoanStatus As Label
     Friend WithEvents lblRemarks As Label
     Friend WithEvents lblInterestRate As Label
-    Friend WithEvents btnBack As Button
     Friend WithEvents btnHome As Button
     Friend WithEvents Panel1 As Panel
 End Class
