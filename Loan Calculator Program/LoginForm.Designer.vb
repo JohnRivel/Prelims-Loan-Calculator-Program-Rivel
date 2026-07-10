@@ -32,6 +32,7 @@ Partial Class LoginForm
         Me.txtPass = New System.Windows.Forms.TextBox()
         Me.txtUsn = New System.Windows.Forms.TextBox()
         Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.lblBankName = New System.Windows.Forms.Label()
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -142,6 +143,19 @@ Partial Class LoginForm
         Me.Panel2.Size = New System.Drawing.Size(156, 166)
         Me.Panel2.TabIndex = 1
         '
+        'lblBankName
+        '
+        Me.lblBankName.AutoSize = True
+        Me.lblBankName.BackColor = System.Drawing.Color.Transparent
+        Me.lblBankName.Font = New System.Drawing.Font("Lucida Handwriting", 36.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblBankName.ForeColor = System.Drawing.Color.Black
+        Me.lblBankName.Location = New System.Drawing.Point(344, 275)
+        Me.lblBankName.Name = "lblBankName"
+        Me.lblBankName.Size = New System.Drawing.Size(476, 189)
+        Me.lblBankName.TabIndex = 2
+        Me.lblBankName.Text = "Welcome " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "to" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Mitsugoshi Bank"
+        Me.lblBankName.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        '
         'LoginForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -149,6 +163,7 @@ Partial Class LoginForm
         Me.BackgroundImage = Global.Loan_Calculator_Program.My.Resources.Resources.AbstractBackground
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(884, 601)
+        Me.Controls.Add(Me.lblBankName)
         Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.Panel1)
         Me.ForeColor = System.Drawing.SystemColors.ControlText
@@ -158,6 +173,7 @@ Partial Class LoginForm
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
 
@@ -171,4 +187,5 @@ Partial Class LoginForm
     Friend WithEvents lblSignin As Label
     Friend WithEvents btnExit As Button
     Friend WithEvents Panel2 As Panel
+    Friend WithEvents lblBankName As Label
 End Class
