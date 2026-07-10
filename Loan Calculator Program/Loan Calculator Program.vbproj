@@ -82,6 +82,12 @@
     <Compile Include="ApplyForm.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="LoanComputationForm.Designer.vb">
+      <DependentUpon>LoanComputationForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LoanComputationForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="LoginForm.Designer.vb">
       <DependentUpon>LoginForm.vb</DependentUpon>
     </Compile>
@@ -114,6 +120,9 @@
   <ItemGroup>
     <EmbeddedResource Include="ApplyForm.resx">
       <DependentUpon>ApplyForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoanComputationForm.resx">
+      <DependentUpon>LoanComputationForm.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LoginForm.resx">
       <DependentUpon>LoginForm.vb</DependentUpon>

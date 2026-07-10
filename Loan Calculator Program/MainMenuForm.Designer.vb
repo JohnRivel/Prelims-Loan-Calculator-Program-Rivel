@@ -25,11 +25,14 @@ Partial Class MainMenuForm
         Me.btnApply = New System.Windows.Forms.Button()
         Me.btnComp = New System.Windows.Forms.Button()
         Me.btnAbout = New System.Windows.Forms.Button()
-        Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.pnlBG = New System.Windows.Forms.Panel()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.pnlAbout = New System.Windows.Forms.Panel()
+        Me.Label2 = New System.Windows.Forms.Label()
         Me.btnExit = New System.Windows.Forms.Button()
         Me.btnLogout = New System.Windows.Forms.Button()
-        Me.Panel1.SuspendLayout()
+        Me.pnlBG.SuspendLayout()
+        Me.pnlAbout.SuspendLayout()
         Me.SuspendLayout()
         '
         'btnApply
@@ -62,22 +65,39 @@ Partial Class MainMenuForm
         Me.btnAbout.Text = "About"
         Me.btnAbout.UseVisualStyleBackColor = True
         '
-        'Panel1
+        'pnlBG
         '
-        Me.Panel1.Controls.Add(Me.Label1)
-        Me.Panel1.Location = New System.Drawing.Point(249, 1)
-        Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(634, 603)
-        Me.Panel1.TabIndex = 3
+        Me.pnlBG.Controls.Add(Me.Label1)
+        Me.pnlBG.Location = New System.Drawing.Point(249, 1)
+        Me.pnlBG.Name = "pnlBG"
+        Me.pnlBG.Size = New System.Drawing.Size(634, 603)
+        Me.pnlBG.TabIndex = 3
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(3, 8)
+        Me.Label1.Location = New System.Drawing.Point(11, 20)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(45, 13)
-        Me.Label1.TabIndex = 0
-        Me.Label1.Text = "Preview"
+        Me.Label1.Size = New System.Drawing.Size(105, 13)
+        Me.Label1.TabIndex = 5
+        Me.Label1.Text = "Background preview"
+        '
+        'pnlAbout
+        '
+        Me.pnlAbout.Controls.Add(Me.Label2)
+        Me.pnlAbout.Location = New System.Drawing.Point(249, 1)
+        Me.pnlAbout.Name = "pnlAbout"
+        Me.pnlAbout.Size = New System.Drawing.Size(634, 603)
+        Me.pnlAbout.TabIndex = 4
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Location = New System.Drawing.Point(292, 281)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(76, 13)
+        Me.Label2.TabIndex = 0
+        Me.Label2.Text = "About Preview"
         '
         'btnExit
         '
@@ -106,15 +126,18 @@ Partial Class MainMenuForm
         Me.ClientSize = New System.Drawing.Size(884, 601)
         Me.Controls.Add(Me.btnLogout)
         Me.Controls.Add(Me.btnExit)
-        Me.Controls.Add(Me.Panel1)
+        Me.Controls.Add(Me.pnlBG)
         Me.Controls.Add(Me.btnAbout)
         Me.Controls.Add(Me.btnComp)
         Me.Controls.Add(Me.btnApply)
+        Me.Controls.Add(Me.pnlAbout)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
         Me.Name = "MainMenuForm"
         Me.Text = "MainMenuForm"
-        Me.Panel1.ResumeLayout(False)
-        Me.Panel1.PerformLayout()
+        Me.pnlBG.ResumeLayout(False)
+        Me.pnlBG.PerformLayout()
+        Me.pnlAbout.ResumeLayout(False)
+        Me.pnlAbout.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
@@ -122,8 +145,10 @@ Partial Class MainMenuForm
     Friend WithEvents btnApply As Button
     Friend WithEvents btnComp As Button
     Friend WithEvents btnAbout As Button
-    Friend WithEvents Panel1 As Panel
-    Friend WithEvents Label1 As Label
+    Friend WithEvents pnlBG As Panel
     Friend WithEvents btnExit As Button
     Friend WithEvents btnLogout As Button
+    Friend WithEvents pnlAbout As Panel
+    Friend WithEvents Label2 As Label
+    Friend WithEvents Label1 As Label
 End Class

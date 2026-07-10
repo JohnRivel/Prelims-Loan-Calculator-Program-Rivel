@@ -5,7 +5,6 @@
 
     Private Sub btnLogin_Click(sender As Object, e As EventArgs) Handles btnLogin.Click
         If txtUsn.Text = "admin" And txtPass.Text = "admin123456" Then
-            MessageBox.Show("Login Successful!")
             Me.Hide()
             MainMenuForm.Show()
             txtUsn.Clear()
@@ -19,7 +18,8 @@
     End Sub
 
     Private Sub btnExit_Click(sender As Object, e As EventArgs) Handles btnExit.Click
-        Me.Close()
-
+        If MessageBox.Show("Do you wanna exit the application?", "Confirmation", MessageBoxButtons.YesNo) = DialogResult.Yes Then
+            Application.Exit()
+        End If
     End Sub
 End Class

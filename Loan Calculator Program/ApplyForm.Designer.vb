@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class ApplyForm
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,32 +20,32 @@ Partial Class ApplyForm
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.lvlTitle = New System.Windows.Forms.Label()
         Me.lblCust = New System.Windows.Forms.Label()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.Label5 = New System.Windows.Forms.Label()
-        Me.Label6 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
-        Me.TextBox5 = New System.Windows.Forms.TextBox()
-        Me.TextBox6 = New System.Windows.Forms.TextBox()
-        Me.Label7 = New System.Windows.Forms.Label()
-        Me.Label8 = New System.Windows.Forms.Label()
-        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
-        Me.Label9 = New System.Windows.Forms.Label()
-        Me.TextBox7 = New System.Windows.Forms.TextBox()
-        Me.Label10 = New System.Windows.Forms.Label()
-        Me.ComboBox2 = New System.Windows.Forms.ComboBox()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
+        Me.lblCustomeName = New System.Windows.Forms.Label()
+        Me.lblAddress = New System.Windows.Forms.Label()
+        Me.lblOccupation = New System.Windows.Forms.Label()
+        Me.lblContact = New System.Windows.Forms.Label()
+        Me.lblSal = New System.Windows.Forms.Label()
+        Me.lblCmp = New System.Windows.Forms.Label()
+        Me.txtCustomerName = New System.Windows.Forms.TextBox()
+        Me.txtAddress = New System.Windows.Forms.TextBox()
+        Me.txtContactInfo = New System.Windows.Forms.TextBox()
+        Me.txtOccupation = New System.Windows.Forms.TextBox()
+        Me.TxtCompanyName = New System.Windows.Forms.TextBox()
+        Me.txtSalary = New System.Windows.Forms.TextBox()
+        Me.lblLoan = New System.Windows.Forms.Label()
+        Me.lblLType = New System.Windows.Forms.Label()
+        Me.cboLType = New System.Windows.Forms.ComboBox()
+        Me.lblLAmount = New System.Windows.Forms.Label()
+        Me.txtLoanAmount = New System.Windows.Forms.TextBox()
+        Me.lblLTerm = New System.Windows.Forms.Label()
+        Me.cboLTerm = New System.Windows.Forms.ComboBox()
+        Me.btnBack = New System.Windows.Forms.Button()
+        Me.btnClear = New System.Windows.Forms.Button()
+        Me.btnCompute = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'lvlTitle
@@ -69,241 +69,248 @@ Partial Class ApplyForm
         Me.lblCust.TabIndex = 2
         Me.lblCust.Text = "Customer Information"
         '
-        'Label1
+        'lblCustomeName
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(152, 166)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(128, 20)
-        Me.Label1.TabIndex = 3
-        Me.Label1.Text = "Customer Name:"
+        Me.lblCustomeName.AutoSize = True
+        Me.lblCustomeName.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblCustomeName.Location = New System.Drawing.Point(152, 166)
+        Me.lblCustomeName.Name = "lblCustomeName"
+        Me.lblCustomeName.Size = New System.Drawing.Size(128, 20)
+        Me.lblCustomeName.TabIndex = 3
+        Me.lblCustomeName.Text = "Customer Name:"
         '
-        'Label2
+        'lblAddress
         '
-        Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(152, 218)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(72, 20)
-        Me.Label2.TabIndex = 4
-        Me.Label2.Text = "Address:"
+        Me.lblAddress.AutoSize = True
+        Me.lblAddress.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblAddress.Location = New System.Drawing.Point(152, 218)
+        Me.lblAddress.Name = "lblAddress"
+        Me.lblAddress.Size = New System.Drawing.Size(72, 20)
+        Me.lblAddress.TabIndex = 4
+        Me.lblAddress.Text = "Address:"
         '
-        'Label3
+        'lblOccupation
         '
-        Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(152, 322)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(94, 20)
-        Me.Label3.TabIndex = 6
-        Me.Label3.Text = "Occupation:"
+        Me.lblOccupation.AutoSize = True
+        Me.lblOccupation.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblOccupation.Location = New System.Drawing.Point(152, 322)
+        Me.lblOccupation.Name = "lblOccupation"
+        Me.lblOccupation.Size = New System.Drawing.Size(94, 20)
+        Me.lblOccupation.TabIndex = 6
+        Me.lblOccupation.Text = "Occupation:"
         '
-        'Label4
+        'lblContact
         '
-        Me.Label4.AutoSize = True
-        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(152, 270)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(129, 20)
-        Me.Label4.TabIndex = 5
-        Me.Label4.Text = "Contact Number:"
+        Me.lblContact.AutoSize = True
+        Me.lblContact.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblContact.Location = New System.Drawing.Point(152, 270)
+        Me.lblContact.Name = "lblContact"
+        Me.lblContact.Size = New System.Drawing.Size(129, 20)
+        Me.lblContact.TabIndex = 5
+        Me.lblContact.Text = "Contact Number:"
         '
-        'Label5
+        'lblSal
         '
-        Me.Label5.AutoSize = True
-        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(155, 426)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(116, 20)
-        Me.Label5.TabIndex = 8
-        Me.Label5.Text = "Monthly Salary:"
+        Me.lblSal.AutoSize = True
+        Me.lblSal.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblSal.Location = New System.Drawing.Point(155, 426)
+        Me.lblSal.Name = "lblSal"
+        Me.lblSal.Size = New System.Drawing.Size(116, 20)
+        Me.lblSal.TabIndex = 8
+        Me.lblSal.Text = "Monthly Salary:"
         '
-        'Label6
+        'lblCmp
         '
-        Me.Label6.AutoSize = True
-        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(155, 374)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(126, 20)
-        Me.Label6.TabIndex = 7
-        Me.Label6.Text = "Company Name:"
+        Me.lblCmp.AutoSize = True
+        Me.lblCmp.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblCmp.Location = New System.Drawing.Point(155, 374)
+        Me.lblCmp.Name = "lblCmp"
+        Me.lblCmp.Size = New System.Drawing.Size(126, 20)
+        Me.lblCmp.TabIndex = 7
+        Me.lblCmp.Text = "Company Name:"
         '
-        'TextBox1
+        'txtCustomerName
         '
-        Me.TextBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox1.Location = New System.Drawing.Point(156, 189)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(131, 26)
-        Me.TextBox1.TabIndex = 9
+        Me.txtCustomerName.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtCustomerName.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtCustomerName.Location = New System.Drawing.Point(156, 189)
+        Me.txtCustomerName.Name = "txtCustomerName"
+        Me.txtCustomerName.Size = New System.Drawing.Size(131, 26)
+        Me.txtCustomerName.TabIndex = 9
         '
-        'TextBox2
+        'txtAddress
         '
-        Me.TextBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox2.Location = New System.Drawing.Point(156, 241)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(131, 26)
-        Me.TextBox2.TabIndex = 10
+        Me.txtAddress.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtAddress.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtAddress.Location = New System.Drawing.Point(156, 241)
+        Me.txtAddress.Name = "txtAddress"
+        Me.txtAddress.Size = New System.Drawing.Size(131, 26)
+        Me.txtAddress.TabIndex = 10
         '
-        'TextBox3
+        'txtContactInfo
         '
-        Me.TextBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox3.Location = New System.Drawing.Point(156, 293)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(131, 26)
-        Me.TextBox3.TabIndex = 11
+        Me.txtContactInfo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtContactInfo.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtContactInfo.Location = New System.Drawing.Point(156, 293)
+        Me.txtContactInfo.Name = "txtContactInfo"
+        Me.txtContactInfo.Size = New System.Drawing.Size(131, 26)
+        Me.txtContactInfo.TabIndex = 11
         '
-        'TextBox4
+        'txtOccupation
         '
-        Me.TextBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox4.Location = New System.Drawing.Point(156, 345)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(131, 26)
-        Me.TextBox4.TabIndex = 12
+        Me.txtOccupation.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtOccupation.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtOccupation.Location = New System.Drawing.Point(156, 345)
+        Me.txtOccupation.Name = "txtOccupation"
+        Me.txtOccupation.Size = New System.Drawing.Size(131, 26)
+        Me.txtOccupation.TabIndex = 12
         '
-        'TextBox5
+        'TxtCompanyName
         '
-        Me.TextBox5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox5.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox5.Location = New System.Drawing.Point(156, 397)
-        Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(131, 26)
-        Me.TextBox5.TabIndex = 13
+        Me.TxtCompanyName.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.TxtCompanyName.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TxtCompanyName.Location = New System.Drawing.Point(156, 397)
+        Me.TxtCompanyName.Name = "TxtCompanyName"
+        Me.TxtCompanyName.Size = New System.Drawing.Size(131, 26)
+        Me.TxtCompanyName.TabIndex = 13
         '
-        'TextBox6
+        'txtSalary
         '
-        Me.TextBox6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox6.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox6.Location = New System.Drawing.Point(156, 449)
-        Me.TextBox6.Name = "TextBox6"
-        Me.TextBox6.Size = New System.Drawing.Size(131, 26)
-        Me.TextBox6.TabIndex = 14
+        Me.txtSalary.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtSalary.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtSalary.Location = New System.Drawing.Point(156, 449)
+        Me.txtSalary.Name = "txtSalary"
+        Me.txtSalary.Size = New System.Drawing.Size(131, 26)
+        Me.txtSalary.TabIndex = 14
         '
-        'Label7
+        'lblLoan
         '
-        Me.Label7.AutoSize = True
-        Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(469, 112)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(216, 25)
-        Me.Label7.TabIndex = 15
-        Me.Label7.Text = "Customer Information"
+        Me.lblLoan.AutoSize = True
+        Me.lblLoan.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblLoan.Location = New System.Drawing.Point(469, 112)
+        Me.lblLoan.Name = "lblLoan"
+        Me.lblLoan.Size = New System.Drawing.Size(132, 25)
+        Me.lblLoan.TabIndex = 15
+        Me.lblLoan.Text = "Loan Details"
         '
-        'Label8
+        'lblLType
         '
-        Me.Label8.AutoSize = True
-        Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.Location = New System.Drawing.Point(470, 166)
-        Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(87, 20)
-        Me.Label8.TabIndex = 16
-        Me.Label8.Text = "Loan Type:"
+        Me.lblLType.AutoSize = True
+        Me.lblLType.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblLType.Location = New System.Drawing.Point(470, 166)
+        Me.lblLType.Name = "lblLType"
+        Me.lblLType.Size = New System.Drawing.Size(87, 20)
+        Me.lblLType.TabIndex = 16
+        Me.lblLType.Text = "Loan Type:"
         '
-        'ComboBox1
+        'cboLType
         '
-        Me.ComboBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Location = New System.Drawing.Point(474, 189)
-        Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(121, 28)
-        Me.ComboBox1.TabIndex = 17
+        Me.cboLType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.cboLType.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cboLType.FormattingEnabled = True
+        Me.cboLType.Items.AddRange(New Object() {"Personal Loan", "Appliance Loan", "Gadget Loan", "Student Loan"})
+        Me.cboLType.Location = New System.Drawing.Point(474, 189)
+        Me.cboLType.Name = "cboLType"
+        Me.cboLType.Size = New System.Drawing.Size(172, 28)
+        Me.cboLType.TabIndex = 17
         '
-        'Label9
+        'lblLAmount
         '
-        Me.Label9.AutoSize = True
-        Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label9.Location = New System.Drawing.Point(470, 241)
-        Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(87, 20)
-        Me.Label9.TabIndex = 18
-        Me.Label9.Text = "Loan Type:"
+        Me.lblLAmount.AutoSize = True
+        Me.lblLAmount.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblLAmount.Location = New System.Drawing.Point(470, 241)
+        Me.lblLAmount.Name = "lblLAmount"
+        Me.lblLAmount.Size = New System.Drawing.Size(109, 20)
+        Me.lblLAmount.TabIndex = 18
+        Me.lblLAmount.Text = "Loan Amount:"
         '
-        'TextBox7
+        'txtLoanAmount
         '
-        Me.TextBox7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox7.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox7.Location = New System.Drawing.Point(474, 264)
-        Me.TextBox7.Name = "TextBox7"
-        Me.TextBox7.Size = New System.Drawing.Size(131, 26)
-        Me.TextBox7.TabIndex = 19
+        Me.txtLoanAmount.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtLoanAmount.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtLoanAmount.Location = New System.Drawing.Point(474, 264)
+        Me.txtLoanAmount.Name = "txtLoanAmount"
+        Me.txtLoanAmount.Size = New System.Drawing.Size(172, 26)
+        Me.txtLoanAmount.TabIndex = 19
         '
-        'Label10
+        'lblLTerm
         '
-        Me.Label10.AutoSize = True
-        Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label10.Location = New System.Drawing.Point(470, 322)
-        Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(89, 20)
-        Me.Label10.TabIndex = 20
-        Me.Label10.Text = "Loan Term:"
+        Me.lblLTerm.AutoSize = True
+        Me.lblLTerm.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblLTerm.Location = New System.Drawing.Point(470, 322)
+        Me.lblLTerm.Name = "lblLTerm"
+        Me.lblLTerm.Size = New System.Drawing.Size(89, 20)
+        Me.lblLTerm.TabIndex = 20
+        Me.lblLTerm.Text = "Loan Term:"
         '
-        'ComboBox2
+        'cboLTerm
         '
-        Me.ComboBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ComboBox2.FormattingEnabled = True
-        Me.ComboBox2.Location = New System.Drawing.Point(474, 343)
-        Me.ComboBox2.Name = "ComboBox2"
-        Me.ComboBox2.Size = New System.Drawing.Size(121, 28)
-        Me.ComboBox2.TabIndex = 21
+        Me.cboLTerm.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.cboLTerm.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cboLTerm.FormattingEnabled = True
+        Me.cboLTerm.Items.AddRange(New Object() {"12 Months", "24 Months", "36 Months"})
+        Me.cboLTerm.Location = New System.Drawing.Point(474, 343)
+        Me.cboLTerm.Name = "cboLTerm"
+        Me.cboLTerm.Size = New System.Drawing.Size(172, 28)
+        Me.cboLTerm.TabIndex = 21
         '
-        'Button1
+        'btnBack
         '
-        Me.Button1.Location = New System.Drawing.Point(562, 546)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
-        Me.Button1.TabIndex = 22
-        Me.Button1.Text = "Back"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.btnBack.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnBack.Location = New System.Drawing.Point(12, 553)
+        Me.btnBack.Name = "btnBack"
+        Me.btnBack.Size = New System.Drawing.Size(91, 36)
+        Me.btnBack.TabIndex = 22
+        Me.btnBack.Text = "Back"
+        Me.btnBack.UseVisualStyleBackColor = True
         '
-        'Button2
+        'btnClear
         '
-        Me.Button2.Location = New System.Drawing.Point(484, 546)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(75, 23)
-        Me.Button2.TabIndex = 23
-        Me.Button2.Text = "Clear"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.btnClear.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnClear.Location = New System.Drawing.Point(429, 426)
+        Me.btnClear.Name = "btnClear"
+        Me.btnClear.Size = New System.Drawing.Size(91, 36)
+        Me.btnClear.TabIndex = 23
+        Me.btnClear.Text = "Clear"
+        Me.btnClear.UseVisualStyleBackColor = True
         '
-        'Button3
+        'btnCompute
         '
-        Me.Button3.Location = New System.Drawing.Point(403, 546)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(75, 23)
-        Me.Button3.TabIndex = 24
-        Me.Button3.Text = "Compute"
-        Me.Button3.UseVisualStyleBackColor = True
+        Me.btnCompute.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnCompute.Location = New System.Drawing.Point(555, 426)
+        Me.btnCompute.Name = "btnCompute"
+        Me.btnCompute.Size = New System.Drawing.Size(91, 36)
+        Me.btnCompute.TabIndex = 24
+        Me.btnCompute.Text = "Compute"
+        Me.btnCompute.UseVisualStyleBackColor = True
         '
         'ApplyForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(884, 601)
-        Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.ComboBox2)
-        Me.Controls.Add(Me.Label10)
-        Me.Controls.Add(Me.TextBox7)
-        Me.Controls.Add(Me.Label9)
-        Me.Controls.Add(Me.ComboBox1)
-        Me.Controls.Add(Me.Label8)
-        Me.Controls.Add(Me.Label7)
-        Me.Controls.Add(Me.TextBox6)
-        Me.Controls.Add(Me.TextBox5)
-        Me.Controls.Add(Me.TextBox4)
-        Me.Controls.Add(Me.TextBox3)
-        Me.Controls.Add(Me.TextBox2)
-        Me.Controls.Add(Me.TextBox1)
-        Me.Controls.Add(Me.Label5)
-        Me.Controls.Add(Me.Label6)
-        Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.Label4)
-        Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.btnCompute)
+        Me.Controls.Add(Me.btnClear)
+        Me.Controls.Add(Me.btnBack)
+        Me.Controls.Add(Me.cboLTerm)
+        Me.Controls.Add(Me.lblLTerm)
+        Me.Controls.Add(Me.txtLoanAmount)
+        Me.Controls.Add(Me.lblLAmount)
+        Me.Controls.Add(Me.cboLType)
+        Me.Controls.Add(Me.lblLType)
+        Me.Controls.Add(Me.lblLoan)
+        Me.Controls.Add(Me.txtSalary)
+        Me.Controls.Add(Me.TxtCompanyName)
+        Me.Controls.Add(Me.txtOccupation)
+        Me.Controls.Add(Me.txtContactInfo)
+        Me.Controls.Add(Me.txtAddress)
+        Me.Controls.Add(Me.txtCustomerName)
+        Me.Controls.Add(Me.lblSal)
+        Me.Controls.Add(Me.lblCmp)
+        Me.Controls.Add(Me.lblOccupation)
+        Me.Controls.Add(Me.lblContact)
+        Me.Controls.Add(Me.lblAddress)
+        Me.Controls.Add(Me.lblCustomeName)
         Me.Controls.Add(Me.lblCust)
         Me.Controls.Add(Me.lvlTitle)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
@@ -316,26 +323,26 @@ Partial Class ApplyForm
 
     Friend WithEvents lvlTitle As Label
     Friend WithEvents lblCust As Label
-    Friend WithEvents Label1 As Label
-    Friend WithEvents Label2 As Label
-    Friend WithEvents Label3 As Label
-    Friend WithEvents Label4 As Label
-    Friend WithEvents Label5 As Label
-    Friend WithEvents Label6 As Label
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents TextBox3 As TextBox
-    Friend WithEvents TextBox4 As TextBox
-    Friend WithEvents TextBox5 As TextBox
-    Friend WithEvents TextBox6 As TextBox
-    Friend WithEvents Label7 As Label
-    Friend WithEvents Label8 As Label
-    Friend WithEvents ComboBox1 As ComboBox
-    Friend WithEvents Label9 As Label
-    Friend WithEvents TextBox7 As TextBox
-    Friend WithEvents Label10 As Label
-    Friend WithEvents ComboBox2 As ComboBox
-    Friend WithEvents Button1 As Button
-    Friend WithEvents Button2 As Button
-    Friend WithEvents Button3 As Button
+    Friend WithEvents lblCustomeName As Label
+    Friend WithEvents lblAddress As Label
+    Friend WithEvents lblOccupation As Label
+    Friend WithEvents lblContact As Label
+    Friend WithEvents lblSal As Label
+    Friend WithEvents lblCmp As Label
+    Friend WithEvents txtCustomerName As TextBox
+    Friend WithEvents txtAddress As TextBox
+    Friend WithEvents txtContactInfo As TextBox
+    Friend WithEvents txtOccupation As TextBox
+    Friend WithEvents TxtCompanyName As TextBox
+    Friend WithEvents txtSalary As TextBox
+    Friend WithEvents lblLoan As Label
+    Friend WithEvents lblLType As Label
+    Friend WithEvents cboLType As ComboBox
+    Friend WithEvents lblLAmount As Label
+    Friend WithEvents txtLoanAmount As TextBox
+    Friend WithEvents lblLTerm As Label
+    Friend WithEvents btnBack As Button
+    Friend WithEvents btnClear As Button
+    Friend WithEvents btnCompute As Button
+    Friend WithEvents cboLTerm As ComboBox
 End Class

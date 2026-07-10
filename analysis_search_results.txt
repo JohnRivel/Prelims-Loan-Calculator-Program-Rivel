@@ -1,0 +1,4 @@
+Project files:
+- ApplyForm.vb
+- ApplyForm.Designer.vb
+Search strategy: open ApplyForm.Designer.vb and scan control declarations for 'Occupation' and 'TextBox' names.
