@@ -1,0 +1,6 @@
+I will inspect files for build errors: ApplyForm.vb and ApplyForm.Designer.vb. Then check for mismatched control names or missing declarations.
+Current files available in project:
+- ApplyForm.vb
+- ApplyForm.Designer.vb
+- LoanComputationForm.vb
+- ...

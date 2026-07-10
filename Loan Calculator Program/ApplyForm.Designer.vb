@@ -46,15 +46,19 @@ Partial Class ApplyForm
         Me.btnBack = New System.Windows.Forms.Button()
         Me.btnClear = New System.Windows.Forms.Button()
         Me.btnCompute = New System.Windows.Forms.Button()
+        Me.pnlBackground = New System.Windows.Forms.Panel()
+        Me.pnlBackground.SuspendLayout()
         Me.SuspendLayout()
         '
         'lvlTitle
         '
         Me.lvlTitle.AutoSize = True
-        Me.lvlTitle.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lvlTitle.Location = New System.Drawing.Point(319, 29)
+        Me.lvlTitle.BackColor = System.Drawing.Color.Transparent
+        Me.lvlTitle.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lvlTitle.ForeColor = System.Drawing.Color.Black
+        Me.lvlTitle.Location = New System.Drawing.Point(201, 16)
         Me.lvlTitle.Name = "lvlTitle"
-        Me.lvlTitle.Size = New System.Drawing.Size(247, 31)
+        Me.lvlTitle.Size = New System.Drawing.Size(265, 33)
         Me.lvlTitle.TabIndex = 1
         Me.lvlTitle.Text = "APPLY FOR LOAN"
         Me.lvlTitle.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -62,70 +66,84 @@ Partial Class ApplyForm
         'lblCust
         '
         Me.lblCust.AutoSize = True
-        Me.lblCust.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblCust.Location = New System.Drawing.Point(151, 112)
+        Me.lblCust.BackColor = System.Drawing.Color.Transparent
+        Me.lblCust.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblCust.ForeColor = System.Drawing.Color.Black
+        Me.lblCust.Location = New System.Drawing.Point(62, 78)
         Me.lblCust.Name = "lblCust"
-        Me.lblCust.Size = New System.Drawing.Size(216, 25)
+        Me.lblCust.Size = New System.Drawing.Size(188, 24)
         Me.lblCust.TabIndex = 2
         Me.lblCust.Text = "Customer Information"
         '
         'lblCustomeName
         '
         Me.lblCustomeName.AutoSize = True
-        Me.lblCustomeName.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblCustomeName.Location = New System.Drawing.Point(152, 166)
+        Me.lblCustomeName.BackColor = System.Drawing.Color.Transparent
+        Me.lblCustomeName.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblCustomeName.ForeColor = System.Drawing.Color.Black
+        Me.lblCustomeName.Location = New System.Drawing.Point(63, 132)
         Me.lblCustomeName.Name = "lblCustomeName"
-        Me.lblCustomeName.Size = New System.Drawing.Size(128, 20)
+        Me.lblCustomeName.Size = New System.Drawing.Size(152, 24)
         Me.lblCustomeName.TabIndex = 3
         Me.lblCustomeName.Text = "Customer Name:"
         '
         'lblAddress
         '
         Me.lblAddress.AutoSize = True
-        Me.lblAddress.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblAddress.Location = New System.Drawing.Point(152, 218)
+        Me.lblAddress.BackColor = System.Drawing.Color.Transparent
+        Me.lblAddress.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblAddress.ForeColor = System.Drawing.Color.Black
+        Me.lblAddress.Location = New System.Drawing.Point(63, 184)
         Me.lblAddress.Name = "lblAddress"
-        Me.lblAddress.Size = New System.Drawing.Size(72, 20)
+        Me.lblAddress.Size = New System.Drawing.Size(85, 24)
         Me.lblAddress.TabIndex = 4
         Me.lblAddress.Text = "Address:"
         '
         'lblOccupation
         '
         Me.lblOccupation.AutoSize = True
-        Me.lblOccupation.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblOccupation.Location = New System.Drawing.Point(152, 322)
+        Me.lblOccupation.BackColor = System.Drawing.Color.Transparent
+        Me.lblOccupation.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblOccupation.ForeColor = System.Drawing.Color.Black
+        Me.lblOccupation.Location = New System.Drawing.Point(63, 288)
         Me.lblOccupation.Name = "lblOccupation"
-        Me.lblOccupation.Size = New System.Drawing.Size(94, 20)
+        Me.lblOccupation.Size = New System.Drawing.Size(112, 24)
         Me.lblOccupation.TabIndex = 6
         Me.lblOccupation.Text = "Occupation:"
         '
         'lblContact
         '
         Me.lblContact.AutoSize = True
-        Me.lblContact.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblContact.Location = New System.Drawing.Point(152, 270)
+        Me.lblContact.BackColor = System.Drawing.Color.Transparent
+        Me.lblContact.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblContact.ForeColor = System.Drawing.Color.Black
+        Me.lblContact.Location = New System.Drawing.Point(63, 236)
         Me.lblContact.Name = "lblContact"
-        Me.lblContact.Size = New System.Drawing.Size(129, 20)
+        Me.lblContact.Size = New System.Drawing.Size(152, 24)
         Me.lblContact.TabIndex = 5
         Me.lblContact.Text = "Contact Number:"
         '
         'lblSal
         '
         Me.lblSal.AutoSize = True
-        Me.lblSal.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblSal.Location = New System.Drawing.Point(155, 426)
+        Me.lblSal.BackColor = System.Drawing.Color.Transparent
+        Me.lblSal.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblSal.ForeColor = System.Drawing.Color.Black
+        Me.lblSal.Location = New System.Drawing.Point(66, 392)
         Me.lblSal.Name = "lblSal"
-        Me.lblSal.Size = New System.Drawing.Size(116, 20)
+        Me.lblSal.Size = New System.Drawing.Size(137, 24)
         Me.lblSal.TabIndex = 8
         Me.lblSal.Text = "Monthly Salary:"
         '
         'lblCmp
         '
         Me.lblCmp.AutoSize = True
-        Me.lblCmp.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblCmp.Location = New System.Drawing.Point(155, 374)
+        Me.lblCmp.BackColor = System.Drawing.Color.Transparent
+        Me.lblCmp.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblCmp.ForeColor = System.Drawing.Color.Black
+        Me.lblCmp.Location = New System.Drawing.Point(66, 340)
         Me.lblCmp.Name = "lblCmp"
-        Me.lblCmp.Size = New System.Drawing.Size(126, 20)
+        Me.lblCmp.Size = New System.Drawing.Size(152, 24)
         Me.lblCmp.TabIndex = 7
         Me.lblCmp.Text = "Company Name:"
         '
@@ -133,7 +151,7 @@ Partial Class ApplyForm
         '
         Me.txtCustomerName.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtCustomerName.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtCustomerName.Location = New System.Drawing.Point(156, 189)
+        Me.txtCustomerName.Location = New System.Drawing.Point(67, 155)
         Me.txtCustomerName.Name = "txtCustomerName"
         Me.txtCustomerName.Size = New System.Drawing.Size(131, 26)
         Me.txtCustomerName.TabIndex = 9
@@ -142,7 +160,7 @@ Partial Class ApplyForm
         '
         Me.txtAddress.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtAddress.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtAddress.Location = New System.Drawing.Point(156, 241)
+        Me.txtAddress.Location = New System.Drawing.Point(67, 207)
         Me.txtAddress.Name = "txtAddress"
         Me.txtAddress.Size = New System.Drawing.Size(131, 26)
         Me.txtAddress.TabIndex = 10
@@ -151,7 +169,7 @@ Partial Class ApplyForm
         '
         Me.txtContactInfo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtContactInfo.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtContactInfo.Location = New System.Drawing.Point(156, 293)
+        Me.txtContactInfo.Location = New System.Drawing.Point(67, 259)
         Me.txtContactInfo.Name = "txtContactInfo"
         Me.txtContactInfo.Size = New System.Drawing.Size(131, 26)
         Me.txtContactInfo.TabIndex = 11
@@ -160,7 +178,7 @@ Partial Class ApplyForm
         '
         Me.txtOccupation.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtOccupation.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtOccupation.Location = New System.Drawing.Point(156, 345)
+        Me.txtOccupation.Location = New System.Drawing.Point(67, 311)
         Me.txtOccupation.Name = "txtOccupation"
         Me.txtOccupation.Size = New System.Drawing.Size(131, 26)
         Me.txtOccupation.TabIndex = 12
@@ -169,7 +187,7 @@ Partial Class ApplyForm
         '
         Me.TxtCompanyName.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.TxtCompanyName.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TxtCompanyName.Location = New System.Drawing.Point(156, 397)
+        Me.TxtCompanyName.Location = New System.Drawing.Point(67, 363)
         Me.TxtCompanyName.Name = "TxtCompanyName"
         Me.TxtCompanyName.Size = New System.Drawing.Size(131, 26)
         Me.TxtCompanyName.TabIndex = 13
@@ -178,7 +196,7 @@ Partial Class ApplyForm
         '
         Me.txtSalary.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtSalary.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtSalary.Location = New System.Drawing.Point(156, 449)
+        Me.txtSalary.Location = New System.Drawing.Point(67, 415)
         Me.txtSalary.Name = "txtSalary"
         Me.txtSalary.Size = New System.Drawing.Size(131, 26)
         Me.txtSalary.TabIndex = 14
@@ -186,20 +204,24 @@ Partial Class ApplyForm
         'lblLoan
         '
         Me.lblLoan.AutoSize = True
-        Me.lblLoan.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblLoan.Location = New System.Drawing.Point(469, 112)
+        Me.lblLoan.BackColor = System.Drawing.Color.Transparent
+        Me.lblLoan.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblLoan.ForeColor = System.Drawing.Color.Black
+        Me.lblLoan.Location = New System.Drawing.Point(380, 78)
         Me.lblLoan.Name = "lblLoan"
-        Me.lblLoan.Size = New System.Drawing.Size(132, 25)
+        Me.lblLoan.Size = New System.Drawing.Size(112, 24)
         Me.lblLoan.TabIndex = 15
         Me.lblLoan.Text = "Loan Details"
         '
         'lblLType
         '
         Me.lblLType.AutoSize = True
-        Me.lblLType.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblLType.Location = New System.Drawing.Point(470, 166)
+        Me.lblLType.BackColor = System.Drawing.Color.Transparent
+        Me.lblLType.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblLType.ForeColor = System.Drawing.Color.Black
+        Me.lblLType.Location = New System.Drawing.Point(381, 132)
         Me.lblLType.Name = "lblLType"
-        Me.lblLType.Size = New System.Drawing.Size(87, 20)
+        Me.lblLType.Size = New System.Drawing.Size(105, 24)
         Me.lblLType.TabIndex = 16
         Me.lblLType.Text = "Loan Type:"
         '
@@ -209,7 +231,7 @@ Partial Class ApplyForm
         Me.cboLType.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cboLType.FormattingEnabled = True
         Me.cboLType.Items.AddRange(New Object() {"Personal Loan", "Appliance Loan", "Gadget Loan", "Student Loan"})
-        Me.cboLType.Location = New System.Drawing.Point(474, 189)
+        Me.cboLType.Location = New System.Drawing.Point(385, 155)
         Me.cboLType.Name = "cboLType"
         Me.cboLType.Size = New System.Drawing.Size(172, 28)
         Me.cboLType.TabIndex = 17
@@ -217,10 +239,12 @@ Partial Class ApplyForm
         'lblLAmount
         '
         Me.lblLAmount.AutoSize = True
-        Me.lblLAmount.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblLAmount.Location = New System.Drawing.Point(470, 241)
+        Me.lblLAmount.BackColor = System.Drawing.Color.Transparent
+        Me.lblLAmount.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblLAmount.ForeColor = System.Drawing.Color.Black
+        Me.lblLAmount.Location = New System.Drawing.Point(381, 207)
         Me.lblLAmount.Name = "lblLAmount"
-        Me.lblLAmount.Size = New System.Drawing.Size(109, 20)
+        Me.lblLAmount.Size = New System.Drawing.Size(128, 24)
         Me.lblLAmount.TabIndex = 18
         Me.lblLAmount.Text = "Loan Amount:"
         '
@@ -228,7 +252,7 @@ Partial Class ApplyForm
         '
         Me.txtLoanAmount.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtLoanAmount.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtLoanAmount.Location = New System.Drawing.Point(474, 264)
+        Me.txtLoanAmount.Location = New System.Drawing.Point(385, 230)
         Me.txtLoanAmount.Name = "txtLoanAmount"
         Me.txtLoanAmount.Size = New System.Drawing.Size(172, 26)
         Me.txtLoanAmount.TabIndex = 19
@@ -236,10 +260,12 @@ Partial Class ApplyForm
         'lblLTerm
         '
         Me.lblLTerm.AutoSize = True
-        Me.lblLTerm.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblLTerm.Location = New System.Drawing.Point(470, 322)
+        Me.lblLTerm.BackColor = System.Drawing.Color.Transparent
+        Me.lblLTerm.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblLTerm.ForeColor = System.Drawing.Color.Black
+        Me.lblLTerm.Location = New System.Drawing.Point(381, 288)
         Me.lblLTerm.Name = "lblLTerm"
-        Me.lblLTerm.Size = New System.Drawing.Size(89, 20)
+        Me.lblLTerm.Size = New System.Drawing.Size(107, 24)
         Me.lblLTerm.TabIndex = 20
         Me.lblLTerm.Text = "Loan Term:"
         '
@@ -249,7 +275,7 @@ Partial Class ApplyForm
         Me.cboLTerm.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cboLTerm.FormattingEnabled = True
         Me.cboLTerm.Items.AddRange(New Object() {"12 Months", "24 Months", "36 Months"})
-        Me.cboLTerm.Location = New System.Drawing.Point(474, 343)
+        Me.cboLTerm.Location = New System.Drawing.Point(385, 309)
         Me.cboLTerm.Name = "cboLTerm"
         Me.cboLTerm.Size = New System.Drawing.Size(172, 28)
         Me.cboLTerm.TabIndex = 21
@@ -267,7 +293,7 @@ Partial Class ApplyForm
         'btnClear
         '
         Me.btnClear.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnClear.Location = New System.Drawing.Point(429, 426)
+        Me.btnClear.Location = New System.Drawing.Point(340, 392)
         Me.btnClear.Name = "btnClear"
         Me.btnClear.Size = New System.Drawing.Size(91, 36)
         Me.btnClear.TabIndex = 23
@@ -277,47 +303,59 @@ Partial Class ApplyForm
         'btnCompute
         '
         Me.btnCompute.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnCompute.Location = New System.Drawing.Point(555, 426)
+        Me.btnCompute.Location = New System.Drawing.Point(466, 392)
         Me.btnCompute.Name = "btnCompute"
         Me.btnCompute.Size = New System.Drawing.Size(91, 36)
         Me.btnCompute.TabIndex = 24
         Me.btnCompute.Text = "Compute"
         Me.btnCompute.UseVisualStyleBackColor = True
         '
+        'pnlBackground
+        '
+        Me.pnlBackground.BackColor = System.Drawing.Color.Lavender
+        Me.pnlBackground.Controls.Add(Me.btnCompute)
+        Me.pnlBackground.Controls.Add(Me.btnClear)
+        Me.pnlBackground.Controls.Add(Me.cboLTerm)
+        Me.pnlBackground.Controls.Add(Me.lblLTerm)
+        Me.pnlBackground.Controls.Add(Me.txtLoanAmount)
+        Me.pnlBackground.Controls.Add(Me.lblLAmount)
+        Me.pnlBackground.Controls.Add(Me.cboLType)
+        Me.pnlBackground.Controls.Add(Me.lblLType)
+        Me.pnlBackground.Controls.Add(Me.lblLoan)
+        Me.pnlBackground.Controls.Add(Me.txtSalary)
+        Me.pnlBackground.Controls.Add(Me.TxtCompanyName)
+        Me.pnlBackground.Controls.Add(Me.txtOccupation)
+        Me.pnlBackground.Controls.Add(Me.txtContactInfo)
+        Me.pnlBackground.Controls.Add(Me.txtAddress)
+        Me.pnlBackground.Controls.Add(Me.txtCustomerName)
+        Me.pnlBackground.Controls.Add(Me.lblSal)
+        Me.pnlBackground.Controls.Add(Me.lblCmp)
+        Me.pnlBackground.Controls.Add(Me.lblOccupation)
+        Me.pnlBackground.Controls.Add(Me.lblContact)
+        Me.pnlBackground.Controls.Add(Me.lblAddress)
+        Me.pnlBackground.Controls.Add(Me.lblCustomeName)
+        Me.pnlBackground.Controls.Add(Me.lblCust)
+        Me.pnlBackground.Controls.Add(Me.lvlTitle)
+        Me.pnlBackground.Location = New System.Drawing.Point(87, 28)
+        Me.pnlBackground.Name = "pnlBackground"
+        Me.pnlBackground.Size = New System.Drawing.Size(725, 506)
+        Me.pnlBackground.TabIndex = 25
+        '
         'ApplyForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackgroundImage = Global.Loan_Calculator_Program.My.Resources.Resources.AbstractBackground
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(884, 601)
-        Me.Controls.Add(Me.btnCompute)
-        Me.Controls.Add(Me.btnClear)
+        Me.Controls.Add(Me.pnlBackground)
         Me.Controls.Add(Me.btnBack)
-        Me.Controls.Add(Me.cboLTerm)
-        Me.Controls.Add(Me.lblLTerm)
-        Me.Controls.Add(Me.txtLoanAmount)
-        Me.Controls.Add(Me.lblLAmount)
-        Me.Controls.Add(Me.cboLType)
-        Me.Controls.Add(Me.lblLType)
-        Me.Controls.Add(Me.lblLoan)
-        Me.Controls.Add(Me.txtSalary)
-        Me.Controls.Add(Me.TxtCompanyName)
-        Me.Controls.Add(Me.txtOccupation)
-        Me.Controls.Add(Me.txtContactInfo)
-        Me.Controls.Add(Me.txtAddress)
-        Me.Controls.Add(Me.txtCustomerName)
-        Me.Controls.Add(Me.lblSal)
-        Me.Controls.Add(Me.lblCmp)
-        Me.Controls.Add(Me.lblOccupation)
-        Me.Controls.Add(Me.lblContact)
-        Me.Controls.Add(Me.lblAddress)
-        Me.Controls.Add(Me.lblCustomeName)
-        Me.Controls.Add(Me.lblCust)
-        Me.Controls.Add(Me.lvlTitle)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
         Me.Name = "ApplyForm"
         Me.Text = "ApplyForm"
+        Me.pnlBackground.ResumeLayout(False)
+        Me.pnlBackground.PerformLayout()
         Me.ResumeLayout(False)
-        Me.PerformLayout()
 
     End Sub
 
@@ -345,4 +383,5 @@ Partial Class ApplyForm
     Friend WithEvents btnClear As Button
     Friend WithEvents btnCompute As Button
     Friend WithEvents cboLTerm As ComboBox
+    Friend WithEvents pnlBackground As Panel
 End Class

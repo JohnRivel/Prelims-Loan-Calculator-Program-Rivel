@@ -37,6 +37,8 @@ Partial Class LoginForm
         '
         'Panel1
         '
+        Me.Panel1.BackColor = System.Drawing.Color.Lavender
+        Me.Panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Panel1.Controls.Add(Me.lblSignin)
         Me.Panel1.Controls.Add(Me.btnExit)
         Me.Panel1.Controls.Add(Me.btnLogin)
@@ -47,7 +49,7 @@ Partial Class LoginForm
         Me.Panel1.Controls.Add(Me.txtUsn)
         Me.Panel1.Location = New System.Drawing.Point(-2, 0)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(272, 687)
+        Me.Panel1.Size = New System.Drawing.Size(255, 687)
         Me.Panel1.TabIndex = 0
         '
         'lblSignin
@@ -93,6 +95,7 @@ Partial Class LoginForm
         'lblUsn
         '
         Me.lblUsn.AutoSize = True
+        Me.lblUsn.BackColor = System.Drawing.Color.Transparent
         Me.lblUsn.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblUsn.Location = New System.Drawing.Point(37, 163)
         Me.lblUsn.Name = "lblUsn"
@@ -131,16 +134,19 @@ Partial Class LoginForm
         '
         'Panel2
         '
+        Me.Panel2.BackColor = System.Drawing.Color.Transparent
+        Me.Panel2.BackgroundImage = Global.Loan_Calculator_Program.My.Resources.Resources.Logo
         Me.Panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Panel2.Location = New System.Drawing.Point(505, 69)
+        Me.Panel2.Location = New System.Drawing.Point(504, 56)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(155, 153)
+        Me.Panel2.Size = New System.Drawing.Size(156, 166)
         Me.Panel2.TabIndex = 1
         '
         'LoginForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackgroundImage = Global.Loan_Calculator_Program.My.Resources.Resources.AbstractBackground
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(884, 601)
         Me.Controls.Add(Me.Panel2)

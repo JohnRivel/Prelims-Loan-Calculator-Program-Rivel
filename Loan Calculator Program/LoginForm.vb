@@ -9,8 +9,6 @@
             MainMenuForm.Show()
             txtUsn.Clear()
             txtPass.Clear()
-
-
         Else
             MessageBox.Show("Invalid username or password.")
         End If
@@ -22,4 +20,6 @@
             Application.Exit()
         End If
     End Sub
+
+
 End Class

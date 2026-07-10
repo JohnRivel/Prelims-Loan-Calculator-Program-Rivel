@@ -1,5 +1,6 @@
 ﻿Public Class ApplyForm
 
+
     Public Sub Clear()
         txtCustomerName.Clear()
         txtAddress.Clear()
@@ -110,5 +111,6 @@
         LoanComputationForm.Show()
         Me.Hide()
     End Sub
+
 
 End Class
