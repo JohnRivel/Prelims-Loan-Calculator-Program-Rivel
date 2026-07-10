@@ -1,4 +1,4 @@
-﻿Public Class ApplyForm
+﻿Public Class LoanApplicationForm
 
 
     Public Sub Clear()
@@ -111,6 +111,5 @@
         LoanComputationForm.Show()
         Me.Hide()
     End Sub
-
 
 End Class

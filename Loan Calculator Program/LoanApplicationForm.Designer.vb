@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
-Partial Class ApplyForm
+Partial Class LoanApplicationForm
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -22,7 +22,7 @@ Partial Class ApplyForm
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Me.lvlTitle = New System.Windows.Forms.Label()
+        Me.lblTitle = New System.Windows.Forms.Label()
         Me.lblCust = New System.Windows.Forms.Label()
         Me.lblCustomeName = New System.Windows.Forms.Label()
         Me.lblAddress = New System.Windows.Forms.Label()
@@ -50,18 +50,18 @@ Partial Class ApplyForm
         Me.pnlBackground.SuspendLayout()
         Me.SuspendLayout()
         '
-        'lvlTitle
+        'lblTitle
         '
-        Me.lvlTitle.AutoSize = True
-        Me.lvlTitle.BackColor = System.Drawing.Color.Transparent
-        Me.lvlTitle.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lvlTitle.ForeColor = System.Drawing.Color.Black
-        Me.lvlTitle.Location = New System.Drawing.Point(201, 16)
-        Me.lvlTitle.Name = "lvlTitle"
-        Me.lvlTitle.Size = New System.Drawing.Size(265, 33)
-        Me.lvlTitle.TabIndex = 1
-        Me.lvlTitle.Text = "APPLY FOR LOAN"
-        Me.lvlTitle.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.lblTitle.AutoSize = True
+        Me.lblTitle.BackColor = System.Drawing.Color.Transparent
+        Me.lblTitle.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblTitle.ForeColor = System.Drawing.Color.Black
+        Me.lblTitle.Location = New System.Drawing.Point(201, 16)
+        Me.lblTitle.Name = "lblTitle"
+        Me.lblTitle.Size = New System.Drawing.Size(230, 33)
+        Me.lblTitle.TabIndex = 1
+        Me.lblTitle.Text = "Loan Application"
+        Me.lblTitle.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
         'lblCust
         '
@@ -335,13 +335,13 @@ Partial Class ApplyForm
         Me.pnlBackground.Controls.Add(Me.lblAddress)
         Me.pnlBackground.Controls.Add(Me.lblCustomeName)
         Me.pnlBackground.Controls.Add(Me.lblCust)
-        Me.pnlBackground.Controls.Add(Me.lvlTitle)
+        Me.pnlBackground.Controls.Add(Me.lblTitle)
         Me.pnlBackground.Location = New System.Drawing.Point(87, 28)
         Me.pnlBackground.Name = "pnlBackground"
         Me.pnlBackground.Size = New System.Drawing.Size(725, 506)
         Me.pnlBackground.TabIndex = 25
         '
-        'ApplyForm
+        'LoanApplicationForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -351,7 +351,7 @@ Partial Class ApplyForm
         Me.Controls.Add(Me.pnlBackground)
         Me.Controls.Add(Me.btnBack)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
-        Me.Name = "ApplyForm"
+        Me.Name = "LoanApplicationForm"
         Me.Text = "ApplyForm"
         Me.pnlBackground.ResumeLayout(False)
         Me.pnlBackground.PerformLayout()
@@ -359,7 +359,7 @@ Partial Class ApplyForm
 
     End Sub
 
-    Friend WithEvents lvlTitle As Label
+    Friend WithEvents lblTitle As Label
     Friend WithEvents lblCust As Label
     Friend WithEvents lblCustomeName As Label
     Friend WithEvents lblAddress As Label

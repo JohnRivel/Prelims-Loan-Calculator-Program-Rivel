@@ -19,7 +19,7 @@
 
     Private Sub btnApply_Click(sender As Object, e As EventArgs) Handles btnApply.Click
         Me.Hide()
-        ApplyForm.Show()
+        LoanApplicationForm.Show()
     End Sub
 
     Private Sub btnComp_Click(sender As Object, e As EventArgs) Handles btnComp.Click
